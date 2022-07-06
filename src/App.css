@@ -1,38 +1,184 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* margin: 0;
+  padding: 0; */
+  width: 100vw;
+  height: 100vh;
+  background-color: #FCFCFC;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 500px;
+  display: flex;
+}
+
+.phone img {
+  height: 500px;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.personal p {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  border: 1px solid;
+  border-color: #e5e5e5;
+  background-color: #ffffff;
+  min-width: 348px;
+  min-height: 395px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login #bootstrap-input {
+  height: 24px;
+  margin-top: 8px;
+}
+
+.login #input-label {
+  font-size: 14px;
+}
+
+.login #component-outlined {
+  border: 1px solid;
+  border-radius: 3px;
+  width: 268px;
+  /* height: 38px; */
+  background-color: #FCFCFC;
+  font-size: 12px;
+}
+
+.login .button {
+  width: 268px;
+  height: 30px;
+  margin-top: 14px;
+  background-color: #0095F6;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login img {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.login .fb {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.login .fb a {
+  color: #385185;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login a {
+  color: #385185;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.login .fb img {
+  height: 18px;
+  margin-right: 4px;
+}
+
+.login .separator-or  {
+  display: flex;
+  align-items: center;
+}
+
+.login .separator-or  p {
+  text-transform: uppercase;
+  color: #A08E8E;
+  font-size: 14px;
+}
+
+.login .separator-or .line {
+  border: 1px solid;
+  height: 0;
+  width: 105px;
+  margin: 12px;
+  color: #D9D9D9;
+}
+
+.register {
+  border: 1px solid;
+  border-color: #e5e5e5;
+  background-color: #ffffff;
+  min-width: 348px;
+  min-height: 62px;
+  
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.register p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.register a {
+  margin-left: 8px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+}
+
+.plataform {
+  display: flex;
+  justify-content: center;
+}
+
+.plataform img {
+  height: 40px;
+  display: flex;
+  margin-left: 2px;
+}
+
+.footer {
+ /* display: flex;
+ flex-direction: column;
+ align-items: center; */
+ margin-top: 180px;
+ max-width: 920px;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+.footer ul li {
+  margin: 5px;
+  color: #8E8E8E ;
+  font-size: 12px;
 }
