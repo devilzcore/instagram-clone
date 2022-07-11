@@ -80,7 +80,7 @@ function App() {
               <a href="/index.html">Entrar com o Facebook</a>
             </div>
             <a href="/index.html">Esqueceu a senha?</a>
-          </div> <br />
+          </div> 
           <div className="register">
             <p>Não tem uma conta?</p>
             <a href="/index.html">Cadastre-se</a>
